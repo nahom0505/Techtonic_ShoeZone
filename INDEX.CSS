@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    margin:auto;
+    border: 5px solid gray ;
+    border-radius: 10px;
+    width:50%;
+    height:100%;
+   margin-top:10%;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+}
+.sidebar {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/973/146/396/agreement-business-document-documents-wallpaper-preview.jpg");
+    color: white;
+    width:30%;
+    border-radius:5px ;
+    padding: 20px;
+    
+}
+ 
+li{
+    color:rgb(135, 247, 247) ;
+    opacity: 0.7;
+}
+.sidebar>ol>p{
+    font-size: larger;
+    font-style: italic;
+}
+.cat {
+    /* padding: 20px; */
+    display:flex;
+    flex-direction: column;
+    margin:20px auto;
+}
+#submit{
+    text-align: end;
+    padding:0px 0px 0% 0px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+input{
+    padding:8px 10px;
+}
+#form_button{
+    border-radius: 10px;
+    align-self: flex-end;
+    padding:10px;
+    background-color: rgb(0, 17, 255);
+    color:white;
+
+}

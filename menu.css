@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+     height: 100%;
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container ul li{
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./image.jpg");
+    background-size: contain;
+    filter: blur(5px); /* Adjust the blur radius as needed */
+    z-index: -1;
+}
+
+.container ul li{
+    padding:20px;
+   
+    
+}
+.container ul li a {
+         color: rgb(255, 255, 255);
+         text-decoration: none;
+         display: flex;
+         font-size: 40px;
+         /* background-color: #747264; */
+         padding-left: 17%;
+         text-align: right;
+         border-radius: 20px;
+         width: 350px;
+
+         
+}
+.container h1{
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: 70px;
+    padding-left:20px ;
+    color: white;
+}
+
+  .container{
+    margin: auto;
+
+
+  }
+.container ul{
+    
+}
+  .header{
+    overflow: hidden;
+    background-color:#3C3633;
+    padding: 5px 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.rightheader{
+    text-align: center;
+ 
+
+}
+
+.rightheader>h1{
+    text-align: center;
+    float: left;
+            color: rgb(255, 255, 255);
+            padding: 12px;
+            text-decoration:none;
+            font-family:broadway;
+            font-size: 50px;
+            line-height: 25px;
+            border-radius: 4px;
+}
+.link{
+    float: right;
+    padding: 50px;
+    font-size: 20px;
+    display:inline-block;
+    justify-content:end ;
+    
+}
+.logo{
+    margin-top: 10px;
+}
+
+.links ul{
+    margin-right: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    gap:40px
+}
+.links ul li{
+    /* background-color: red; */
+    list-style: none;
+}
+
+.links ul li a{
+      text-decoration: none;
+      color: azure;
+      padding: 10px;
+      
+
+}
+
+
+.links ul li a:hover{
+    padding: 10px;
+    background-color: #747264;
+    transition-duration: 0.4s;
+}
